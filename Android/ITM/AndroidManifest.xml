@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wbs.itm"
+    android:versionCode="7"
+    android:versionName="1.6" >
+
+  
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17" />
+    
+    
+     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+ 
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+ 
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="com.wbs.itm.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+ 
+    <uses-permission android:name="com.wbs.itm.permission.C2D_MESSAGE" />
+ 
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+ 
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   <!-- Permission: Writing to SDCard -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+         >
+ 		  <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name" >
+            
+ 	                   <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+      
+               </activity>
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="@string/app_name"
+            >
+           <!--      <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        -->
+        </activity>
+ 
+        <!-- All Product Activity -->
+        <activity
+            android:name=".AllResultsActivity"
+            android:label="All Results" 
+        
+            >
+        </activity>
+ 
+        <!-- Add Product Activity -->
+        <activity
+            android:name=".AllEventsActivity"
+            android:label="All Notices" 
+            
+           >
+        </activity>
+ 
+        <!-- Edit Product Activity -->
+        <activity
+            android:name=".AllAnnActivity"
+            android:label="Extras" 
+            >
+        </activity>
+        
+         <activity
+            android:name=".TimetableActivity"
+            android:label="Time Table" 
+            >
+        </activity>
+        
+        <activity
+            android:name=".AllAbtActivity"
+            android:label="Utils and about" 
+             >
+        </activity>
+        
+        <activity
+            android:name=".PhotoViewercse"
+            android:label="TimeTable" 
+             >
+        </activity>
+        
+        <activity
+            android:name=".TalkyLaunchActivity"
+            android:label="TalkY!" 
+             >
+        </activity>
+        
+          <activity
+            android:name=".AllQuestionActivity"
+            android:label="Question List" >
+        </activity>
+ 
+        
+        <activity
+            android:name=".NewQuestionActivity"
+            android:label="Ask Question" >
+        </activity>
+         <activity
+            android:name=".SelectedQuestionActivity"
+            android:label="Answers" >
+        </activity>
+ 
+         <activity
+            android:name=".NewAnswerActivity"
+            android:label="Ask Question" >
+        </activity>
+          <activity
+            android:name=".PdfViewActivity"
+            android:label="Opening PDF" >
+        </activity>
+          <activity
+            android:name=".PdfManager"
+            android:label="PDF view" >
+         </activity>
+         <activity
+            android:name=".ScanPdf"
+            android:label="File Manager" >
+         </activity>
+          <activity
+            android:name=".DownloadManager"
+            android:label="Download Manager" >
+         </activity>
+           <activity
+            android:name=".OnlineView"
+            android:label="Opening file" >
+         </activity>
+        
+           <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+ 
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+ 
+                <category android:name="com.wbs.itm" />
+            </intent-filter>
+        </receiver>
+ 
+        <service android:name=".GCMIntentService" />
+           
+    </application>
+   
+</manifest>

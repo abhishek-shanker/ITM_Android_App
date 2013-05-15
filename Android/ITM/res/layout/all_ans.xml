@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/itm_bg"
+    android:textColor="@drawable/text_color">
+    <!-- Main ListView
+         Always give id value as list(@android:id/list)
+    -->
+    <TextView
+        android:id="@+id/selectedquestion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="5dp"
+        android:background="#000000"
+        android:textColor="#FFA500"
+        android:textSize="15sp"
+        android:padding="10sp"
+        ></TextView>
+        
+     <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@color/itm_bg">
+     <Button
+    android:id="@+id/ansbtn"
+      android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginLeft="15dip"
+        android:background="@drawable/buttoncol"
+        android:textColor="@drawable/text_color"
+    android:text="@string/answerbutton" 
+    android:layout_alignParentRight="true"/>
+      <Button
+    android:id="@+id/gohome"
+      android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginLeft="15dip"
+        android:background="@drawable/buttoncol"
+        android:textColor="@drawable/text_color"
+    android:text="@string/homepage" 
+    android:layout_alignParentLeft="true"/>
+     
+     </RelativeLayout>
+    <View android:id="@+id/sepbottom" 
+          android:background="#000000" 
+          android:layout_width = "fill_parent"
+          android:layout_height="2dip"
+          android:layout_marginTop="10dip"
+          />
+     
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+ 
+</LinearLayout>
