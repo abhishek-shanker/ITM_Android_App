@@ -37,30 +37,31 @@ Example format for JSON data
 **********************************************
 
 OLD LOGS
----------------------------------------------
+
 ITM 1.6 (Latest Release)
-*Bug fixes in Timetable
----------------------------------------------
+-Bug fixes in Timetable
+
 ITM 1.5
-*Easy and improved interface for timetables. No need to remember your branch's Code anymore. :)
-*Bug fixes in Registration Activity
----------------------------------------------
+-Easy and improved interface for timetables. No need to remember your branch's Code anymore. :)
+-Bug fixes in Registration Activity
+
 ITM 1.4
-*Minor Bug Fixes
----------------------------------------------
+-Minor Bug Fixes
+
 ITM 1.3
-Notifications custom layout to go with all themes
----------------------------------------------
+-Notifications custom layout to go with all themes
+
 ITM 1.2
-Major Bug removed that was causing download manager to crash in ITM 1.1.
----------------------------------------------
+-Major Bug removed that was causing download manager to crash in ITM 1.1.
+
 ITM 1.1
-Known bugs: NetworkException
----------------------------------------------
+-Known bugs: NetworkException
+
 ITM 1.0 released on Mar 17th, 2013
-Features
-*PDF viewer
-*Live Notifications
-*Talky
-*Download Manager
----------------------------------------------
+Features:
+-PDF viewer
+-Live Notifications
+-Talky
+-Download Manager
+
+**********************************************
