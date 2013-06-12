@@ -46,7 +46,7 @@ public class NewQuestionActivity extends Activity {
     JSONParser jsonParser = new JSONParser();
     EditText inputName;
     EditText inputDesc;
-    private static String url_create_Question = "http://yourdomain.com/app/insques.php";
+    private static String url_create_Question = "http://thewbs.getfreehosting.co.uk/talky/insques.php";
     private static final String TAG_SUCCESS = "success";
  
     @Override

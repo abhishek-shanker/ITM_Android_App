@@ -45,7 +45,7 @@ public class TimetableActivity extends ListActivity {
     private ProgressDialog pDialog;
     JSONParser jParser = new JSONParser();
     ArrayList<HashMap<String, String>> timetableList; 
-    private static String url_all_timetable = "http://yourdomain.com/app/fetchtimetable.php";
+    private static String url_all_timetable = "http://thewbs.getfreehosting.co.uk/itmuapp/fetchtimetable.php";
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_TIMETABLES = "timetable";
     private static final String TAG_PID = "tid";

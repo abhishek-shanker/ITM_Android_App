@@ -47,7 +47,7 @@ public class AllAnnActivity extends ListActivity {
     // Creating JSON Parser object
     JSONParser jParser = new JSONParser();
     ArrayList<HashMap<String, String>> AnouncementList;
-    private static String url_academic_calendar = "http://yourdomain.com/app/fetchimp.php";
+    private static String url_academic_calendar = "http://thewbs.getfreehosting.co.uk/itmuapp/fetchimp.php";
     // JSON Node names
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_ANN = "impa";

@@ -110,7 +110,7 @@ public class NewAnswerActivity extends Activity {
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             params.add(new BasicNameValuePair("aname", name));
             params.add(new BasicNameValuePair("answer", description));
-            String url_create_answer = "http://yourdomain.com/app/insans.php?qid="+qid;
+            String url_create_answer = "http://thewbs.getfreehosting.co.uk/talky/insans.php?qid="+qid;
             JSONObject json = jsonParser.makeHttpRequest(url_create_answer,
                     "POST", params);
             Log.d("Create Response", json.toString());

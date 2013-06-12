@@ -46,7 +46,7 @@ public class AllQuestionActivity extends ListActivity {
     private ProgressDialog pDialog;
     JSONParser jParser = new JSONParser();
     ArrayList<HashMap<String, String>> questionsList;
-    private static String url_all_questions = "http://yourdomain.com/app/fetchqs.php";
+    private static String url_all_questions = "http://thewbs.getfreehosting.co.uk/talky/fetchqs.php";
  
     // JSON Node names
     private static final String TAG_SUCCESS = "success";

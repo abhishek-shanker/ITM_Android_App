@@ -16,18 +16,18 @@
  */
 package com.wbs.itm;
 
-import com.google.analytics.tracking.android.EasyTracker;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
+
+import com.google.analytics.tracking.android.EasyTracker;
 
 
 public class TalkyLaunchActivity extends Activity{
-	Button btnviewallq;
-    Button btnaskq;
+	ImageButton btnviewallq;
+	ImageButton btnaskq;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,8 +35,8 @@ public class TalkyLaunchActivity extends Activity{
  
         // Buttons
     
-        btnviewallq = (Button) findViewById(R.id.btnviewq);
-        btnaskq = (Button) findViewById(R.id.btnaskq);    
+        btnviewallq = (ImageButton) findViewById(R.id.btnviewq);
+        btnaskq = (ImageButton) findViewById(R.id.btnaskq);    
         btnviewallq.setOnClickListener(new View.OnClickListener() {
           	 
             @Override

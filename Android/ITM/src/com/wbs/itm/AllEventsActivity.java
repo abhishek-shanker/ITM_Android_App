@@ -43,7 +43,7 @@ public class AllEventsActivity extends ListActivity {
     // Creating JSON Parser object
     JSONParser jParser = new JSONParser();
     ArrayList<HashMap<String, String>> NoticesList;
-    private static String url_all_notices = "http://yourdomain.com/app/fetchnotice.php";
+    private static String url_all_notices = "http://thewbs.getfreehosting.co.uk/itmuapp/fetchnotice.php";
     // JSON Node names
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_NOTICES = "notices";

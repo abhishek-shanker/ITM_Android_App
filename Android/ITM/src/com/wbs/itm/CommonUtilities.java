@@ -22,7 +22,7 @@ import android.content.Intent;
 public final class CommonUtilities {
  
     // give your server registration url here
-    static final String SERVER_URL = "http://yourdomain.com/app/gcm/register.php";
+    static final String SERVER_URL = "http://thewbs.getfreehosting.co.uk/gcm/register.php";
  
     // Google project id
     static final String SENDER_ID = "724507480306";

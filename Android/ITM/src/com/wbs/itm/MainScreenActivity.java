@@ -38,7 +38,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.net.Uri;
@@ -46,14 +46,14 @@ import android.net.Uri;
 public class MainScreenActivity extends Activity{
 	
 	boolean success = true;
-    Button btnViewResults;
-    Button btnViewEvents;
-    Button btnViewAnnounce;
-    Button btnimg;
-    Button btnabt;
-    Button btntt;
-    Button btntalky;
-    Button dwnmanager;
+	ImageButton btnViewResults;
+	ImageButton btnViewEvents;
+	ImageButton btnViewAnnounce;
+	ImageButton btnimg;
+	ImageButton btnabt;
+	ImageButton btntt;
+	ImageButton btntalky;
+	ImageButton dwnmanager;
     TextView lblMessage;
     
     // Asyntask
@@ -157,14 +157,14 @@ public class MainScreenActivity extends Activity{
     	
 
         // Buttons
-        btnViewResults = (Button) findViewById(R.id.btnViewResults);
-        btnViewEvents = (Button) findViewById(R.id.btnViewNotices);
-        btnViewAnnounce = (Button) findViewById(R.id.btnViewAnnounce);
-        btntt = (Button) findViewById(R.id.btntt);
-        btntalky = (Button) findViewById(R.id.btntalky);
-        btnabt = (Button) findViewById(R.id.btnabt);
-        dwnmanager = (Button) findViewById(R.id.dwnmanager);
-        Button ratemyapp = (Button) findViewById(R.id.ratemyapp);
+        btnViewResults = (ImageButton) findViewById(R.id.btnViewResults);
+        btnViewEvents = (ImageButton) findViewById(R.id.btnViewNotices);
+        btnViewAnnounce = (ImageButton) findViewById(R.id.btnViewAnnounce);
+        btntt = (ImageButton) findViewById(R.id.btntt);
+        btntalky = (ImageButton) findViewById(R.id.btntalky);
+        btnabt = (ImageButton) findViewById(R.id.btnabt);
+        dwnmanager = (ImageButton) findViewById(R.id.dwnmanager);
+        ImageButton ratemyapp = (ImageButton) findViewById(R.id.ratemyapp);
         
         btnViewResults.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -56,7 +56,7 @@ public class SelectedQuestionActivity extends ListActivity {
     Intent newqintent;
     String newqid;
     TextView errorcode;
-    private String url_all_selques = "http://yourdomain.com/app/fetchans.php";
+    private String url_all_selques = "http://thewbs.getfreehosting.co.uk/talky/fetchans.php";
  
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_SELQUES = "ques";

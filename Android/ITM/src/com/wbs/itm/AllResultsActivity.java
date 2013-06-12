@@ -46,7 +46,7 @@ public class AllResultsActivity extends ListActivity {
     private ProgressDialog pDialog;
     JSONParser jParser = new JSONParser();
     ArrayList<HashMap<String, String>> resultsList;
-    private static String url_all_results = "http://yourdomain.com/app/fetchresult.php";
+    private static String url_all_results = "http://thewbs.getfreehosting.co.uk/itmuapp/fetchresult.php";
  
     // JSON Node names
     private static final String TAG_SUCCESS = "success";
