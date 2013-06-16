@@ -1,0 +1,8 @@
+<resources>
+<!--   <color name="itm_bg"></color -->
+<color name="itm_bg">#2B455E</color>
+<color name="link">#CAE1EF</color>
+<color name="blackbg">#000000</color>
+<color name="whitetxt">#ffffff</color>
+<color name="btn_red">#ADD8E6</color>
+</resources> 

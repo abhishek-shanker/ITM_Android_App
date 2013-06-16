@@ -1,0 +1,82 @@
+<resources>
+
+    <string name="app_name">ITM</string>
+    <string name="hello_world">Hello</string>
+    <string name="menu_settings">Settings</string>
+    <string name="like">Check out the official FB page of the app!</string>
+    <string name="dev_name">Developer: Bhavyanshu Parasher</string>
+    <string name="results">Results</string>
+    <string name="announ">Academic Calendar</string>
+    <string name="about">Utilities and Info</string>
+    <string name="notices">Notices</string>
+    <string name="abtme">"ITM University" is an android application made for students of ITM University to get all the latest updates on the go. They can easily stay updated about latest announcements, notices and results as soon as they are updated on the main website.</string>
+    <string name="devinfo">Application made by Bhavyanshu Parasher. Contact me @ bhavyanshu.spl@gmail.com</string>
+    <string name="devweb">Developer\'s blog: http://thewbs.getfreehosting.co.uk/myblog.php</string>
+    <string name="bug">Found a bug?</string>
+    <string name="dp">Date of post:</string>
+    <string name="aboutSPL">Society of Programming Languages (www.thespl.in) - Founded on: 31/10/2011 by Bhavya Kaushal Jatwani &amp; Vinit Gulia with the help of magnanimous Senior Prof. (Dr) Prabha Sharma. By the time Dr. Latika Singh as Patron also joined.</string>
+    <string name="fag">Dr. Gaurav Gupta (Faculty coordinator, S.P.L R &amp; D)</string>
+    <string name="devsocio">Credits</string>
+    <string name="social">ITM Social Profile</string>
+    <string name="tt">Time Table</string>
+    <string name="message">Remote Image might take some time to load. Please wait!</string>
+    <string name="example">Enter class name, eg: cse4a</string>
+    <string name="buttongo">View!</string>
+    <string name="req">You must have an internet connection to run this application. That\'s all what is required. And also you can get the adobe pdf viewer by clicking the image below.</string>
+    <string name="adobe">Adobe PDF Viewer for android</string>
+    <string name="talky">TalkY!</string>
+    <string name="viewq">Latest Questions</string>
+    <string name="askq">Ask A Question</string>
+    <string name="askname">Your name</string>
+    <string name="createbuttonquestion">Post Question!</string>
+    <string name="hintqdesc">Only 999 characters are allowed. Ask whatever you wish to ask!</string>
+    <string name="question">Your Question</string>
+    <string name="hintqname">Enter your name</string>
+    <string name="createbuttonanswer">Post Answer!</string>
+    <string name="hintadesc">Know the answer? Post here. Only 999 characters are allowed.</string>
+    <string name="answer">Your Answer</string>
+    <string name="answerbutton">Post Reply!</string>
+    <string name="no_ans_error">There are currently no answers to this question!</string>
+    <string name="hintaname">Enter your name</string>
+    <string name="error_required">Required!</string>
+    <string name="selectitem"> Select from the list below to view more information.</string>
+    <string name="messagepdf">Please wait..loading remote file..!</string>
+    <string name="homepage">Home!</string>
+    <string name="disclaimer">"I take no responsibility and assume no liability for any content posted by the students using this application. It is for free flow of information and will always be. This application might suffer <u>unexpected force close</u> due to server downtime as it is currently consuming free hosting service."- Bhavyanshu Parasher (Developer)</string>
+    <string name="helpquestionhint">Know the answer? Just select the question you want to answer.</string>
+    <string name="offlineview">Download and view offline</string>
+    <string name="onlineview">View online</string>
+    <string name="dwnmgr">Download Manager</string>
+    <string name="dwnmgroffline">View your downloaded files</string>
+    <string name="ratemyapp">Rate This App!</string>
+    
+    <!--  GCM related Strings -->
+    
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: Add a google account in your device settings to use notification feature. error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Server.</string>
+    <string name="server_registered">Server Response: successfully added device!</string>
+    <string name="server_unregistered">Server Response: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+   
+    <!-- Register Activity -->
+   <string name="hintemail">eg. you@gmail.com</string>
+    <string name="email">Email:</string>
+    <string name="fullname">Full Name:</string>
+    <string name="hintname">Simply enter your name</string>
+    <string name="registerhelp">Before registering make sure you have added your google email account in your device settings. To do that go to Settings>Account &amp; Sync>Add your gmail account. This is only one time registration and it unlocks the feature of live notifications.</string>
+    <string name="regactivity">Register (Important)</string>
+    <string name="register">Register</string>
+</resources>
