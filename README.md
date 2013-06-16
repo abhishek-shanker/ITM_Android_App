@@ -38,6 +38,9 @@ Example format for JSON data
 
 OLD LOGS
 
+ITM 1.7 (To Be Released)
+-Major update in User Interface
+
 ITM 1.6 (Latest Release)
 -Bug fixes in Timetable
 
