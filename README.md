@@ -32,8 +32,25 @@ The server side code is very simple. I can email you the source code for server 
 The application mostly requires JSON data which it fetches and maps into the listview of the activity.
 
 Example format for JSON data
-{"notices":[{"nid":"134","notice":"Notice Title1","noticeinfo":"http://domainhostingpdfile.pdf","date":"Date of Post: 2013-05-15"},{"nid":"133","notice":"Notice title 2","noticeinfo":"http://domainhostingpdfile.pdf","date":"Date of Post: 2013-05-15"}],"success":1} 
-
+```json
+{
+    "notices": [
+        {
+            "nid": "134",
+            "notice": "Notice Title1",
+            "noticeinfo": "http://domainhostingpdfile.pdf",
+            "date": "Date of Post: 2013-05-15"
+        },
+        {
+            "nid": "133",
+            "notice": "Notice title 2",
+            "noticeinfo": "http://domainhostingpdfile.pdf",
+            "date": "Date of Post: 2013-05-15"
+        }
+    ],
+    "success": 1
+} 
+```
 **********************************************
 
 OLD LOGS
