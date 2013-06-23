@@ -31,7 +31,8 @@ WHY DOESN'T THIS CONTAIN THE SERVER SIDE CODE?
 The server side code is very simple. I can email you the source code for server side if you want. Send me an email at bhavyanshu.spl@gmail.com with subject "Request for SERVER code". I will try to send it as soon as possible.
 The application mostly requires JSON data which it fetches and maps into the listview of the activity.
 
-Example format for JSON data
+Example format for JSON data to be parsed to the list view. (Fields can be added or deleted as per requirement) ->
+
 ```json
 {
     "notices": [
